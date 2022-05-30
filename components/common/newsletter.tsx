@@ -4,9 +4,9 @@ import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "next-i18next";
 import { useUI } from "../../../src/contexts/ui.context";
-import { vercelLoader } from "../../utils/firebase";
+
 interface NewsLetterFormValues {
-	email: string;
+  email: string;
 }
 const defaultValues = {
 	email: "",
@@ -35,7 +35,6 @@ export default function Newsletter() {
 							alt="Thumbnail"
 							width={655}
 							height={655}
-							loader={vercelLoader}
 							className="object-cover w-full h-full"
 						/>
 					</div>

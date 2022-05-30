@@ -2,44 +2,44 @@ import Image from "next/image";
 import { FaInstagram } from "react-icons/fa";
 import cn from "classnames";
 import { useTranslation } from "next-i18next";
-import { vercelLoader } from "../../utils/firebase";
+
 const instagramFeed = [
-	{
-		id: 1,
-		title: "text-man",
-		slug: "/#",
-		image: "/assets/images/instagram/1.jpg",
-	},
-	{
-		id: 2,
-		title: "text-woman",
-		slug: "/#",
-		image: "/assets/images/instagram/2.jpg",
-	},
-	{
-		id: 3,
-		title: "text-watch",
-		slug: "/#",
-		image: "/assets/images/instagram/3.jpg",
-	},
-	{
-		id: 4,
-		title: "text-man",
-		slug: "/#",
-		image: "/assets/images/instagram/4.jpg",
-	},
-	{
-		id: 5,
-		title: "text-sports",
-		slug: "/#",
-		image: "/assets/images/instagram/5.jpg",
-	},
-	{
-		id: 6,
-		title: "text-fashion",
-		slug: "/#",
-		image: "/assets/images/instagram/6.jpg",
-	},
+  {
+    id: 1,
+    title: "text-man",
+    slug: "/#",
+    image: "/assets/images/instagram/1.jpg",
+  },
+  {
+    id: 2,
+    title: "text-woman",
+    slug: "/#",
+    image: "/assets/images/instagram/2.jpg",
+  },
+  {
+    id: 3,
+    title: "text-watch",
+    slug: "/#",
+    image: "/assets/images/instagram/3.jpg",
+  },
+  {
+    id: 4,
+    title: "text-man",
+    slug: "/#",
+    image: "/assets/images/instagram/4.jpg",
+  },
+  {
+    id: 5,
+    title: "text-sports",
+    slug: "/#",
+    image: "/assets/images/instagram/5.jpg",
+  },
+  {
+    id: 6,
+    title: "text-fashion",
+    slug: "/#",
+    image: "/assets/images/instagram/6.jpg",
+  },
 ];
 
 interface Props {
@@ -67,7 +67,6 @@ const Instagram: React.FC<Props> = ({ className = "" }) => {
 						width={300}
 						height={300}
 						className="bg-gray-300 object-cover"
-						loader={vercelLoader}
 					/>
 					<div className="absolute top left bg-black w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-50" />
 					<div className="absolute top left h-full w-full flex items-center justify-center">

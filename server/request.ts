@@ -16,7 +16,7 @@ const agent = new https.Agent({ keepAlive: true });
 
 export function initFirebase() {
   if (!getApps().length) {
-    const serviceAccount = require(`./${PROJECT_ID}-firebase-adminsdk.json`);
+    const serviceAccount = require(`src/server/${PROJECT_ID}-firebase-adminsdk.json`);
     const privateKey = process.env.FIREBASE_PRIVATE_KEY;
     if (privateKey) {
       // on vercel override with prod project id

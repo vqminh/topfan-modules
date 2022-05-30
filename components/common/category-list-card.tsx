@@ -4,10 +4,9 @@ import { IoIosArrowForward } from "react-icons/io";
 import { ROUTES } from "../../../src/utils/routes";
 import { Category } from "../../../src/framework/basic-rest/types";
 import { useTranslation } from "next-i18next";
-import { vercelLoader } from "../../utils/firebase";
 
 interface Props {
-	category: Category;
+  category: Category;
 }
 
 const CategoryListCard: React.FC<Props> = ({ category }) => {
@@ -23,7 +22,6 @@ const CategoryListCard: React.FC<Props> = ({ category }) => {
 							alt={name || t("text-category-thumbnail")}
 							width={60}
 							height={60}
-							loader={vercelLoader}
 							className="bg-gray-300 object-cover rounded-full"
 						/>
 					</div>

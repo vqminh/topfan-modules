@@ -1,5 +1,4 @@
 import Link from "../../ui/link";
-import { vercelLoader } from "../../utils/firebase";
 import { useWindowSize } from "../../utils/use-window-size";
 import cn from "classnames";
 import Image from "next/image";
@@ -44,7 +43,6 @@ const BannerCard: FC<BannerProps> = ({
 					src={selectedImage.url}
 					width={selectedImage.width}
 					height={selectedImage.height}
-					loader={vercelLoader}
 					alt={title}
 					quality={100}
 					className={cn("bg-gray-300 object-cover w-full", {

@@ -3,10 +3,12 @@ import { IoHomeSharp } from "react-icons/io5";
 import Text from "../../ui/text";
 import Link from "../../ui/link";
 import { useTranslation } from "next-i18next";
-import { vercelLoader } from "../../utils/firebase";
 import React from "react";
 
-const ErrorInformation: React.FC<{ error?: string, href?: string }> = ({ error, href }) => {
+const ErrorInformation: React.FC<{ error?: string; href?: string }> = ({
+  error,
+  href,
+}) => {
   const { t } = useTranslation("common");
   return (
     <div className="border-t border-b border-gray-300 text-center px-16 py-16 sm:py-20 lg:py-24 xl:py-32 flex items-center justify-center">
@@ -16,7 +18,6 @@ const ErrorInformation: React.FC<{ error?: string, href?: string }> = ({ error, 
           alt={t("error-heading")}
           width={822}
           height={492}
-          loader={vercelLoader}
         />
 
         <Text variant="mediumHeading">{error || t("error-heading")}</Text>

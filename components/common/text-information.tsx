@@ -1,12 +1,11 @@
 import classNames from "classnames";
 import Image from "next/image";
 import { useTranslation } from "next-i18next";
-import { vercelLoader } from "../../utils/firebase";
 
 interface ItemProps {
-	icon: string;
-	title: string;
-	description: string;
+  icon: string;
+  title: string;
+  description: string;
 }
 
 interface Props {
@@ -29,7 +28,6 @@ const TextInformation: React.FC<Props> = ({ item, className }) => {
 					alt={t(`${item.title}`)}
 					width="78"
 					height="78"
-					loader={vercelLoader}
 				/>
 			</div>
 			<div className="-mb-1">

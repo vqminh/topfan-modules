@@ -4,14 +4,13 @@ import Text from "../../ui/text";
 import { FaLink } from "react-icons/fa";
 import { LinkProps } from "next/link";
 import { useTranslation } from "next-i18next";
-import { vercelLoader } from "../../utils/firebase";
 
 interface Props {
-	item: any;
-	variant?: "rounded" | "circle";
-	size?: "small" | "medium";
-	effectActive?: boolean;
-	href: LinkProps["href"];
+  item: any;
+  variant?: "rounded" | "circle";
+  size?: "small" | "medium";
+  effectActive?: boolean;
+  href: LinkProps["href"];
 }
 
 const Card: React.FC<Props> = ({
@@ -44,7 +43,6 @@ const Card: React.FC<Props> = ({
 						width={imageSize}
 						height={imageSize}
 						quality={100}
-						loader={vercelLoader}
 						className={`object-cover bg-gray-300 ${
 							variant === "rounded" ? "rounded-md" : "rounded-full"
 						}`}

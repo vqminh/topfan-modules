@@ -4,12 +4,12 @@ import Button from "../../ui/button";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import cn from "classnames";
 import { useTranslation } from "next-i18next";
-import { vercelLoader } from "../../utils/firebase";
+
 const data = {
-	title: "support-heading",
-	description: "support-sub-heading",
-	buttonText: "button-chat-services",
-	supportImage: "/assets/images/support.png",
+  title: "support-heading",
+  description: "support-sub-heading",
+  buttonText: "button-chat-services",
+  supportImage: "/assets/images/support.png",
 };
 
 interface Props {
@@ -40,7 +40,6 @@ const Support: React.FC<Props> = ({ className }) => {
 					alt={t("text-support-thumbnail")}
 					width={870}
 					height={300}
-					loader={vercelLoader}
 				/>
 			</div>
 			<Button>

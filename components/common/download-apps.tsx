@@ -3,29 +3,29 @@ import Text from "../../ui/text";
 import cn from "classnames";
 import Link from "../../ui/link";
 import { useTranslation } from "next-i18next";
-import { vercelLoader } from "../../utils/firebase";
+
 const data = {
-	title: "app-heading",
-	subTitle: "app-sub-heading",
-	appImage: "/assets/images/app.png",
-	appButtons: [
-		{
-			id: 1,
-			slug: "/#",
-			altText: "button-app-store",
-			appButton: "/assets/images/app-store.svg",
-			buttonWidth: 209,
-			buttonHeight: 60,
-		},
-		{
-			id: 2,
-			slug: "/#",
-			altText: "button-play-store",
-			appButton: "/assets/images/play-store.svg",
-			buttonWidth: 209,
-			buttonHeight: 60,
-		},
-	],
+  title: "app-heading",
+  subTitle: "app-sub-heading",
+  appImage: "/assets/images/app.png",
+  appButtons: [
+    {
+      id: 1,
+      slug: "/#",
+      altText: "button-app-store",
+      appButton: "/assets/images/app-store.svg",
+      buttonWidth: 209,
+      buttonHeight: 60,
+    },
+    {
+      id: 2,
+      slug: "/#",
+      altText: "button-play-store",
+      appButton: "/assets/images/play-store.svg",
+      buttonWidth: 209,
+      buttonHeight: 60,
+    },
+  ],
 };
 
 interface Props {
@@ -81,7 +81,6 @@ const DownloadApps: React.FC<Props> = ({ className }) => {
 					alt={t("text-app-thumbnail")}
 					width={375}
 					height={430}
-					loader={vercelLoader}
 				/>
 			</div>
 		</div>

@@ -1,27 +1,26 @@
 import Image from "next/image";
 import Link from "../../ui/link";
 import { useTranslation } from "next-i18next";
-import { vercelLoader } from "../../utils/firebase";
 
 const data = {
-	exclusiveName: "text-new-year",
-	year: 2021,
-	exclusiveData: [
-		{
-			id: 1,
-			slug: "/search",
-			buttonText: "button-women-exclusive",
-			image: "/assets/images/exclusive/women.png",
-			backgroundColor: "bg-gray-150",
-		},
-		{
-			id: 2,
-			slug: "/search",
-			buttonText: "button-men-exclusive",
-			image: "/assets/images/exclusive/men.png",
-			backgroundColor: "bg-linenSecondary",
-		},
-	],
+  exclusiveName: "text-new-year",
+  year: 2021,
+  exclusiveData: [
+    {
+      id: 1,
+      slug: "/search",
+      buttonText: "button-women-exclusive",
+      image: "/assets/images/exclusive/women.png",
+      backgroundColor: "bg-gray-150",
+    },
+    {
+      id: 2,
+      slug: "/search",
+      buttonText: "button-men-exclusive",
+      image: "/assets/images/exclusive/men.png",
+      backgroundColor: "bg-linenSecondary",
+    },
+  ],
 };
 
 interface Props {
@@ -48,7 +47,6 @@ const ExclusiveBlock: React.FC<Props> = ({
 								alt={item.buttonText}
 								width={600}
 								height={600}
-								loader={vercelLoader}
 							/>
 						</div>
 						<Link

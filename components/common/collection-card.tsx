@@ -2,18 +2,17 @@ import Link from "../../ui/link";
 import Image from "next/image";
 import Text from "../../ui/text";
 import { useTranslation } from "next-i18next";
-import { vercelLoader } from "../../utils/firebase";
 
 interface Props {
-	imgWidth?: number | string;
-	imgHeight?: number | string;
-	contactClassName?: string;
-	collection: {
-		slug: string;
-		image: string;
-		title: string;
-		description?: string;
-	};
+  imgWidth?: number | string;
+  imgHeight?: number | string;
+  contactClassName?: string;
+  collection: {
+    slug: string;
+    image: string;
+    title: string;
+    description?: string;
+  };
 }
 
 const CollectionCard: React.FC<Props> = ({
@@ -36,7 +35,6 @@ const CollectionCard: React.FC<Props> = ({
 						alt={t(`${title}`) || t("text-card-thumbnail")}
 						width={imgWidth}
 						height={imgHeight}
-						loader={vercelLoader}
 						className="bg-gray-300 object-cover sm:rounded-md transition duration-200 ease-in-out group-hover:opacity-90"
 					/>
 				</div>
