@@ -2,13 +2,13 @@ import Cors from "cors";
 import { getFirestore } from "firebase-admin/firestore";
 import type { NextApiRequest, NextApiResponse } from "next";
 import * as functions from "firebase-functions";
-import { DEV, PROJECT_ID } from "@settings/site-settings";
 import { generateId, timeStamp } from "../utils/id";
 import https, { RequestOptions } from "https";
 import http from "http";
 import stream from "stream";
 import { cert, getApps, initializeApp } from "firebase-admin/app";
 import { DecodedIdToken, getAuth } from "firebase-admin/auth";
+import {DEV, PROJECT_ID} from "@topfan-modules/utils/env";
 
 // Setting the `keepAlive` option to `true` keeps
 // connections open between function invocations

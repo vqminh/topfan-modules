@@ -1,6 +1,6 @@
-import { API_URL, DEV, IS_SERVER } from "@settings/site-settings";
 import { auth } from "./firebase";
 import axios from "axios";
+import {API_URL, DEV, IS_SERVER} from "@topfan-modules/utils/env";
 
 export function LOGGER(...args: any[]) {
   if (DEV) {

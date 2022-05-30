@@ -5,13 +5,13 @@ import sgMail from "@sendgrid/mail";
 import { MailDataRequired } from "@sendgrid/mail/src/mail";
 import { Liquid } from "liquidjs";
 import path from "path";
-import { DEV, SITE_URL } from "@settings/site-settings";
 import { FieldValue, getFirestore } from "firebase-admin/firestore";
 import { CONVERSATIONS } from "@utils/constants";
 import { Conversation, Message } from "@framework/conversation-types";
 import { SENDER_ID_TOPFAN } from "../utils/id";
 import { info } from "./request";
 import nodemailer from "nodemailer";
+import {DEV, SITE_URL} from "@topfan-modules/utils/env";
 
 export const EMAIL_SUPPORT = process.env.SENDGRID_SENDER_SUPPORT as string;
 export const EMAIL_ADMIN = process.env.SENDGRID_SENDER_ADMIN as string;

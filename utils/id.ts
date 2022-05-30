@@ -1,5 +1,5 @@
-import { PLACE_HOLDER, PROJECT_ID } from "../../src/settings/site-settings";
-import { Booking, Media, VideoType } from "../../src/framework/basic-rest/booking-types";
+import { Booking, Media, VideoType } from "@framework/booking-types";
+import {PLACE_HOLDER, PROJECT_ID} from "@topfan-modules/utils/env";
 
 export const VERSION = "1";
 export const BUCKET = `https://${PROJECT_ID}.appspot.com.storage.googleapis.com/`;

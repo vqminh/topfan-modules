@@ -12,9 +12,9 @@ import {
 } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 import { initializeFirestore, Timestamp } from "firebase/firestore";
-import { PROJECT_ID } from "@settings/site-settings";
 import { getBucketURL } from "./id";
 import { createActionLink } from "./auth";
+import {PROJECT_ID} from "@topfan-modules/utils/env";
 export const BUCKET = `https://${PROJECT_ID}.appspot.com.storage.googleapis.com/`;
 export const LOCAL_STORAGE_KEY_EMAIL = "emailForSignIn";
 
