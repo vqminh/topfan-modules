@@ -7,7 +7,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { reportError } from "../../utils/logging";
 import { uploadFile } from "../../utils/storage";
 import { VideoType } from "../../../src/framework/basic-rest/booking-types";
-import Button from "../../../src/components/ui/button";
+import Button from "../../ui/button";
 import cn from "classnames";
 import { getSupportedMimeType } from "../../utils/video";
 import styles from "./VideoRecorder.module.css";

@@ -4,11 +4,11 @@ import dynamic from "next/dynamic";
 import Newsletter from "../newsletter";
 import React from "react";
 
-const LoginForm = dynamic(() => import("../../../../src/components/auth/login-form"));
-const SignUpForm = dynamic(() => import("../../../../src/components/auth/signup-form"));
-const InviteForm = dynamic(() => import("../../../../src/components/auth/invite-form"));
+const LoginForm = dynamic(() => import("../../auth/login-form"));
+const SignUpForm = dynamic(() => import("../../auth/signup-form"));
+const InviteForm = dynamic(() => import("../../auth/invite-form"));
 const ForgetPasswordForm = dynamic(
-  () => import("../../../../src/components/auth/forget-password-form")
+  () => import("../../auth/forget-password-form")
 );
 const ProductPopup = dynamic(() => import("../../../../src/components/product/product-popup"));
 const ImageCropper = dynamic(() => import("../image-cropper"));

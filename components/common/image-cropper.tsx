@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useUI } from "../../../src/contexts/ui.context";
-import Button from "../../../src/components/ui/button";
+import Button from "../../ui/button";
 import { useTranslation } from "next-i18next";
 import Cropper from "cropperjs";
 import { uploadFile } from "../../utils/storage";

@@ -1,4 +1,4 @@
-import Link from "../../../src/components/ui/link";
+import Link from "../../ui/link";
 import { vercelLoader } from "../../utils/firebase";
 import { useWindowSize } from "../../utils/use-window-size";
 import cn from "classnames";

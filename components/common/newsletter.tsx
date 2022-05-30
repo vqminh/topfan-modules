@@ -1,5 +1,5 @@
-import Button from "../../../src/components/ui/button";
-import Input from "../../../src/components/ui/input";
+import Button from "../../ui/button";
+import Input from "../../ui/input";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "next-i18next";

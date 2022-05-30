@@ -1,8 +1,8 @@
 import React from "react";
-import ActiveLink from "../../../src/components/ui/active-link";
+import ActiveLink from "../../ui/active-link";
 import useBreadcrumb from "../../utils/use-breadcrumb";
 import {useTranslation} from "next-i18next";
-import HomeIcon from "../../../src/components/icons/home-icon";
+import HomeIcon from "../icons/home-icon";
 
 interface Props {
 	children: any;

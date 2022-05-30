@@ -1,10 +1,10 @@
-import Input from "../../../../src/components/ui/input";
+import Input from "../../../ui/input";
 import { useForm } from "react-hook-form";
-import TextArea from "../../../../src/components/ui/text-area";
+import TextArea from "../../../ui/text-area";
 import { useUI } from "../../../../src/contexts/ui.context";
 import React from "react";
-import { registerEmail, registerText } from "../../../../src/components/ui/input-utils";
-import Form from "../../../../src/components/widgets/form";
+import { registerEmail, registerText } from "../../../ui/input-utils";
+import Form from "../form";
 import {
   addDoc,
   collection,

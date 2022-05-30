@@ -1,9 +1,9 @@
-import Input from "../../../../src/components/ui/input";
-import Button from "../../../../src/components/ui/button";
+import Input from "../../../ui/input";
+import Button from "../../../ui/button";
 import { useForm } from "react-hook-form";
-import TextArea from "../../../../src/components/ui/text-area";
+import TextArea from "../../../ui/text-area";
 import ReactStars from "react-rating-stars-component";
-import { CheckBox } from "../../../../src/components/ui/checkbox";
+import { CheckBox } from "../../../ui/checkbox";
 import { useTranslation } from "next-i18next";
 
 interface ReviewFormValues {

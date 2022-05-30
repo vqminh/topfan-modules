@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "next-i18next";
 import { useUI } from "../../../src/contexts/ui.context";
-import Input from "../../../src/components/ui/input";
-import Button from "../../../src/components/ui/button";
+import Input from "../../ui/input";
+import Button from "../../ui/button";
 import { useForm } from "react-hook-form";
-import MoneyInput from "../../../src/components/ui/money-input";
-import Text from "../../../src/components/ui/text";
+import MoneyInput from "../../ui/money-input";
+import Text from "../../ui/text";
 
 export interface ConfirmationDataType {
   header?: string;

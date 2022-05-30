@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Text from "../../../src/components/ui/text";
+import Text from "../../ui/text";
 import { Category } from "../../../src/framework/basic-rest/types";
 import { useTranslation } from "next-i18next";
 import { assetLoader } from "../../utils/firebase";

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Text from "../../../src/components/ui/text";
+import Text from "../../ui/text";
 import cn from "classnames";
-import Link from "../../../src/components/ui/link";
+import Link from "../../ui/link";
 import { useTranslation } from "next-i18next";
 import { vercelLoader } from "../../utils/firebase";
 const data = {

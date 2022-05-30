@@ -1,11 +1,11 @@
 import ProductCard from "../../../src/components/product/product-card";
-import Carousel from "../../../src/components/ui/carousel/carousel";
+import Carousel from "../../ui/carousel/carousel";
 import { SwiperSlide } from "swiper/react";
-import ProductFlashSaleGridLoader from "../../../src/components/ui/loaders/product-flash-sale-grid-loader";
-import ProductFlashSaleLoader from "../../../src/components/ui/loaders/product-flash-sale-loader";
+import ProductFlashSaleGridLoader from "../../ui/loaders/product-flash-sale-grid-loader";
+import ProductFlashSaleLoader from "../../ui/loaders/product-flash-sale-loader";
 import ProgressCard from "./progress-card";
 import SectionHeader from "./section-header";
-import Alert from "../../../src/components/ui/alert";
+import Alert from "../../ui/alert";
 
 interface Props {
 	products: any[];

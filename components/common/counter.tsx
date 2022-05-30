@@ -1,5 +1,5 @@
-import MinusIcon from "../../../src/components/icons/minus-icon";
-import PlusIcon from "../../../src/components/icons/plus-icon";
+import MinusIcon from "../icons/minus-icon";
+import PlusIcon from "../icons/plus-icon";
 import cn from "classnames";
 type CounterProps = {
 	quantity: number;

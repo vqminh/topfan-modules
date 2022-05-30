@@ -1,13 +1,13 @@
-import Text from "../../../src/components/ui/text";
-import Input from "../../../src/components/ui/input";
+import Text from "../../ui/text";
+import Input from "../../ui/input";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "next-i18next";
 import React from "react";
 import { SUBSCRIPTIONS } from "../../../src/utils/constants";
 import { doc, serverTimestamp, setDoc } from "firebase/firestore";
 import { firestore } from "../../utils/firebase";
-import Form from "../../../src/components/widgets/form";
-import { registerEmail } from "../../../src/components/ui/input-utils";
+import Form from "./form";
+import { registerEmail } from "../../ui/input-utils";
 
 interface Props {
   className?: string;

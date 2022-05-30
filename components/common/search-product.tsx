@@ -1,4 +1,4 @@
-import Link from "../../../src/components/ui/link";
+import Link from "../../ui/link";
 import Image from "next/image";
 import { ROUTES } from "../../../src/utils/routes";
 import { assetLoader } from "../../utils/firebase";

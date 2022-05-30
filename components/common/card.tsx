@@ -1,6 +1,6 @@
-import Link from "../../../src/components/ui/link";
+import Link from "../../ui/link";
 import Image from "next/image";
-import Text from "../../../src/components/ui/text";
+import Text from "../../ui/text";
 import { FaLink } from "react-icons/fa";
 import { LinkProps } from "next/link";
 import { useTranslation } from "next-i18next";

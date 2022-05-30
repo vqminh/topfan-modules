@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Text from "../../../src/components/ui/text";
-import Button from "../../../src/components/ui/button";
+import Text from "../../ui/text";
+import Button from "../../ui/button";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import cn from "classnames";
 import { useTranslation } from "next-i18next";

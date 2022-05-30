@@ -1,5 +1,5 @@
-import Text from "../../../src/components/ui/text";
-import Link from "../../../src/components/ui/link";
+import Text from "../../ui/text";
+import Link from "../../ui/link";
 import { useTranslation } from "next-i18next";
 
 interface Props {
