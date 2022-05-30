@@ -1,3 +1,10 @@
+export interface PublicProfile {
+  photoURL?: string | null;
+  displayName: string;
+  email: string;
+  phoneNumber: string;
+}
+
 export const createActionLink = (domain: string) => ({
   // URL you want to redirect back to. The domain (www.example.com) for this
   // URL must be in the authorized domains list in the Firebase Console.
