@@ -2,7 +2,7 @@ import Button from "../../ui/button";
 import Input from "../../ui/input";
 import Link from "../../ui/link";
 import { useUI } from "src/contexts/ui.context";
-import { useSignUpMutation } from "src/framework/basic-rest/auth/use-signup";
+import { useSignUpMutation } from "@topfan-modules/utils/use-signup";
 import { ROUTES } from "@utils/routes";
 import { useTranslation } from "next-i18next";
 import React from "react";
