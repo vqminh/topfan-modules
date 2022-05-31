@@ -2,7 +2,7 @@ import SearchIcon from "../icons/search-icon";
 import React from "react";
 import { useTranslation } from "next-i18next";
 import { IoCloseOutline } from "react-icons/io5";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 type SearchProps = {
 	className?: string;
 	onSubmit: (e: React.SyntheticEvent) => void;

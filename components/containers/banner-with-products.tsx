@@ -1,11 +1,11 @@
 import BannerCard from "../common/banner-card";
 import SectionHeader from "../common/section-header";
-import ProductCard from "../../../src/components/product/product-card";
+import ProductCard from "@components/product/product-card";
 import ProductCardListSmallLoader from "../../ui/loaders/product-card-small-list-loader";
-import { useOnSellingProductsQuery } from "../../../src/framework/basic-rest/product/get-all-on-selling-products";
-import { homeThreeProductsBanner as banner } from "../../../src/framework/basic-rest/static/banner";
+import { useOnSellingProductsQuery } from "src/framework/basic-rest/product/get-all-on-selling-products";
+import { homeThreeProductsBanner as banner } from "src/framework/basic-rest/static/banner";
 import Alert from "../../ui/alert";
-import { ROUTES } from "../../../src/utils/routes";
+import { ROUTES } from "@utils/routes";
 import React from "react";
 
 interface ProductsProps {

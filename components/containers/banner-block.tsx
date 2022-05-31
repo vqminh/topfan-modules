@@ -1,5 +1,5 @@
 import BannerCard from "../common/banner-card";
-import { ROUTES } from "../../../src/utils/routes";
+import { ROUTES } from "@utils/routes";
 interface BannerProps {
 	data: any;
 	className?: string;

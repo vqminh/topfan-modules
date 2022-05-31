@@ -2,12 +2,12 @@ import BannerCard from "../common/banner-card";
 import CategoryListCard from "../common/category-list-card";
 import Carousel from "../../ui/carousel/carousel";
 import { SwiperSlide } from "swiper/react";
-import { useCategoriesQuery } from "../../../src/framework/basic-rest/category/get-all-categories";
+import { useCategoriesQuery } from "src/framework/basic-rest/category/get-all-categories";
 import { useWindowSize } from "../../utils/use-window-size";
-import { homeTwoHeroBanner as heroBanner } from "../../../src/framework/basic-rest/static/banner";
+import { homeTwoHeroBanner as heroBanner } from "src/framework/basic-rest/static/banner";
 import CategoryListCardLoader from "../../ui/loaders/category-list-card-loader";
 import CategoryListFeedLoader from "../../ui/loaders/category-list-feed-loader";
-import { ROUTES } from "../../../src/utils/routes";
+import { ROUTES } from "@utils/routes";
 import Alert from "../../ui/alert";
 import React from "react";
 

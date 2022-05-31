@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { IoIosArrowForward } from "react-icons/io";
-import { ROUTES } from "../../../src/utils/routes";
-import { Category } from "../../../src/framework/basic-rest/types";
+import { ROUTES } from "@utils/routes";
+import { Category } from "src/framework/basic-rest/types";
 import { useTranslation } from "next-i18next";
 
 interface Props {

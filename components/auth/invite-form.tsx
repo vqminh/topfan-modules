@@ -8,14 +8,14 @@ import {
   registerText,
 } from "../../ui/input-utils";
 import { sendEvent } from "../../utils/gtag";
-import { SignupType } from "../../../src/framework/basic-rest/booking-types";
+import { SignupType } from "src/framework/basic-rest/booking-types";
 import { firestore } from "../../utils/firebase";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
-import { SIGNUPS } from "../../../src/utils/constants";
+import { SIGNUPS } from "@utils/constants";
 import Form from "../common/form";
-import { apiPost } from "../../../src/framework/basic-rest/utils/api";
-import { useUI } from "../../../src/contexts/ui.context";
-import { IDOL_INVITE } from "../../../src/settings/templates";
+import { apiPost } from "src/framework/basic-rest/utils/api";
+import { useUI } from "src/contexts/ui.context";
+import { IDOL_INVITE } from "@settings/templates";
 
 const SignupForm: React.FC<{ children?: React.ReactNode }>= () => {
   const { t } = useTranslation();

@@ -4,7 +4,7 @@ import { SwiperSlide } from "swiper/react";
 import CategoryCard from "../common/category-card";
 import { useWindowSize } from "../../utils/use-window-size";
 import CategoryCardLoader from "../../ui/loaders/category-card-loader";
-import { useFeaturedCategoriesQuery } from "../../../src/framework/basic-rest/category/get-all-featured-categories";
+import { useFeaturedCategoriesQuery } from "src/framework/basic-rest/category/get-all-featured-categories";
 import Alert from "../../ui/alert";
 
 interface CategoriesProps {

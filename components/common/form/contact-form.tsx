@@ -1,7 +1,7 @@
 import Input from "../../../ui/input";
 import { useForm } from "react-hook-form";
 import TextArea from "../../../ui/text-area";
-import { useUI } from "../../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import React from "react";
 import { registerEmail, registerText } from "../../../ui/input-utils";
 import Form from "../form";
@@ -12,8 +12,8 @@ import {
   Timestamp,
 } from "firebase/firestore";
 import { firestore } from "../../../utils/firebase";
-import { CONVERSATIONS } from "../../../../src/utils/constants";
-import { Conversation } from "../../../../src/framework/basic-rest/conversation-types";
+import { CONVERSATIONS } from "@utils/constants";
+import { Conversation } from "src/framework/basic-rest/conversation-types";
 import { ONE_DAY, SENDER_ID_TOPFAN } from "../../../utils/id";
 
 interface ContactFormValues {

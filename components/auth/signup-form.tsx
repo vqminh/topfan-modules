@@ -1,15 +1,15 @@
 import Button from "../../ui/button";
 import Input from "../../ui/input";
 import Link from "../../ui/link";
-import { useUI } from "../../../src/contexts/ui.context";
-import { useSignUpMutation } from "../../../src/framework/basic-rest/auth/use-signup";
-import { ROUTES } from "../../../src/utils/routes";
+import { useUI } from "src/contexts/ui.context";
+import { useSignUpMutation } from "src/framework/basic-rest/auth/use-signup";
+import { ROUTES } from "@utils/routes";
 import { useTranslation } from "next-i18next";
 import React from "react";
 import { useForm } from "react-hook-form";
 import LoginSocial from "./login-social";
 import { registerPhone } from "../../ui/input-utils";
-import { Profile } from "../../../src/types/account";
+import { Profile } from "src/types/account";
 import { sendEvent } from "../../utils/gtag";
 import { MODAL } from "../common/modal/managed-modal";
 

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import Button from "../../ui/button";
 import { useTranslation } from "next-i18next";
 import { getImageFromVideo, uploadFile } from "../../utils/storage";
-import { VideoType } from "../../../src/framework/basic-rest/booking-types";
+import { VideoType } from "src/framework/basic-rest/booking-types";
 import { toast } from "react-toastify";
 
 /**

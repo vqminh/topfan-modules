@@ -1,9 +1,9 @@
 import BannerCard from "../common/banner-card";
 import Carousel from "../../ui/carousel/carousel";
 import { SwiperSlide } from "swiper/react";
-import { bannerGrid } from "../../../src/framework/basic-rest/static/banner";
+import { bannerGrid } from "src/framework/basic-rest/static/banner";
 import { useWindowSize } from "../../utils/use-window-size";
-import { ROUTES } from "../../../src/utils/routes";
+import { ROUTES } from "@utils/routes";
 
 const breakpoints = {
 	"1025": {

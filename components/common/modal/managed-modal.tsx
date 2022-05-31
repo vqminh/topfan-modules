@@ -1,4 +1,4 @@
-import { useUI } from "../../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import Modal from "./modal";
 import dynamic from "next/dynamic";
 import Newsletter from "../newsletter";
@@ -10,7 +10,7 @@ const InviteForm = dynamic(() => import("../../auth/invite-form"));
 const ForgetPasswordForm = dynamic(
   () => import("../../auth/forget-password-form")
 );
-const ProductPopup = dynamic(() => import("../../../../src/components/product/product-popup"));
+const ProductPopup = dynamic(() => import("@components/product/product-popup"));
 const ImageCropper = dynamic(() => import("../image-cropper"));
 const VideoUploader = dynamic(
   () => import("../video-uploader")

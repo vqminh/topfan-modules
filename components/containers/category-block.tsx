@@ -3,8 +3,8 @@ import SectionHeader from "../common/section-header";
 import Carousel from "../../ui/carousel/carousel";
 import CardLoader from "../../ui/loaders/card-loader";
 import CardRoundedLoader from "../../ui/loaders/card-rounded-loader";
-import { useCategoriesQuery } from "../../../src/framework/basic-rest/category/get-all-categories";
-import { ROUTES } from "../../../src/utils/routes";
+import { useCategoriesQuery } from "src/framework/basic-rest/category/get-all-categories";
+import { ROUTES } from "@utils/routes";
 import Alert from "../../ui/alert";
 import { SwiperSlide } from "swiper/react";
 

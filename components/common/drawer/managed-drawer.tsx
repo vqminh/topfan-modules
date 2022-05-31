@@ -1,6 +1,6 @@
-import Cart from "../../../../src/components/cart/cart";
+import Cart from "@components/cart/cart";
 import { Drawer } from "./drawer";
-import { useUI } from "../../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import { getDirection } from "../../../utils/get-direction";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";

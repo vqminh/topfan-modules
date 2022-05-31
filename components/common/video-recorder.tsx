@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { fadeInOut } from "../../motion/fade-in-out";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import { IoClose, IoStop } from "react-icons/io5";
 import { useTranslation } from "next-i18next";
 import React, { useEffect, useRef, useState } from "react";
 import { reportError } from "../../utils/logging";
 import { uploadFile } from "../../utils/storage";
-import { VideoType } from "../../../src/framework/basic-rest/booking-types";
+import { VideoType } from "src/framework/basic-rest/booking-types";
 import Button from "../../ui/button";
 import cn from "classnames";
 import { getSupportedMimeType } from "../../utils/video";

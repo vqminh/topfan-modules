@@ -1,9 +1,9 @@
 import React, { useRef, useEffect } from "react";
 import cn from "classnames";
 import SearchResultLoader from "../../ui/loaders/search-result-loader";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import SearchBox from "./search-box";
-import { useSearchQuery } from "../../../src/framework/basic-rest/product/use-search";
+import { useSearchQuery } from "src/framework/basic-rest/product/use-search";
 import {
 	disableBodyScroll,
 	enableBodyScroll,

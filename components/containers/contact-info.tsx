@@ -1,8 +1,8 @@
 import { FC } from "react";
 import { IoCallSharp, IoMail } from "react-icons/io5";
 import { useTranslation } from "next-i18next";
-import { useUI } from "../../../src/contexts/ui.context";
-import { siteSettings } from "../../../src/settings/site-settings";
+import { useUI } from "src/contexts/ui.context";
+import { siteSettings } from "@settings/site-settings";
 
 interface Props {
   image?: HTMLImageElement;

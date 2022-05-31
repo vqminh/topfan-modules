@@ -3,7 +3,7 @@ import Input from "../../ui/input";
 import Image from "next/image";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "next-i18next";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 
 interface NewsLetterFormValues {
   email: string;

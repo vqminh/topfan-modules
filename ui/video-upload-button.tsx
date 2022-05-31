@@ -1,9 +1,9 @@
 import type { FC } from "react";
 import React, { ChangeEvent, useRef } from "react";
-import { useUI } from "../../src/contexts/ui.context";
+import { useUI } from "@contexts/ui.context";
 import { useTranslation } from "next-i18next";
 import { generateId } from "../utils/id";
-import { VideoType } from "../../src/framework/basic-rest/booking-types";
+import { VideoType } from "src/framework/basic-rest/booking-types";
 import Button, { ButtonProps } from "./button";
 
 interface VideoUploadBtnProps extends ButtonProps{

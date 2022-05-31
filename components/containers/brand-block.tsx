@@ -3,8 +3,8 @@ import SectionHeader from "../common/section-header";
 import Carousel from "../../ui/carousel/carousel";
 import { SwiperSlide } from "swiper/react";
 import CardRoundedLoader from "../../ui/loaders/card-rounded-loader";
-import { useBrandsQuery } from "../../../src/framework/basic-rest/brand/get-all-brands";
-import { ROUTES } from "../../../src/utils/routes";
+import { useBrandsQuery } from "src/framework/basic-rest/brand/get-all-brands";
+import { ROUTES } from "@utils/routes";
 import Alert from "../../ui/alert";
 
 interface BrandProps {

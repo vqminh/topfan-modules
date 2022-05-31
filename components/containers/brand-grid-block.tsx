@@ -1,7 +1,7 @@
 import BrandCard from "../common/brand-card";
 import SectionHeader from "../common/section-header";
 import BrandCardLoader from "../../ui/loaders/brand-card-loader";
-import { useBrandsQuery } from "../../../src/framework/basic-rest/brand/get-all-brands";
+import { useBrandsQuery } from "src/framework/basic-rest/brand/get-all-brands";
 import Alert from "../../ui/alert";
 
 interface BrandProps {

@@ -3,7 +3,7 @@ import Input from "../../ui/input";
 import { useForm } from "react-hook-form";
 import { useTranslation } from "next-i18next";
 import React from "react";
-import { SUBSCRIPTIONS } from "../../../src/utils/constants";
+import { SUBSCRIPTIONS } from "@utils/constants";
 import { doc, serverTimestamp, setDoc } from "firebase/firestore";
 import { firestore } from "../../utils/firebase";
 import Form from "./form";

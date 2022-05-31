@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "./link";
 import cn from "classnames";
-import { siteSettings } from "../../src/settings/site-settings";
+import { siteSettings } from "@settings/site-settings";
 import React from "react";
 
 const Logo: React.FC<React.AnchorHTMLAttributes<{}>> = ({

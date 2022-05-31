@@ -1,5 +1,5 @@
 import { DefaultSeo as NextDefaultSeo } from "next-seo";
-import { siteSettings } from "../../../src/settings/site-settings";
+import { siteSettings } from "@settings/site-settings";
 
 export const DefaultSeo = () => {
   const { name, description } = siteSettings;

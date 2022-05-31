@@ -1,8 +1,8 @@
 import BannerCard from "../common/banner-card";
 import Carousel from "../../ui/carousel/carousel";
 import { SwiperSlide } from "swiper/react";
-import { ROUTES } from "../../../src/utils/routes";
-import { promotionBannerTwo as banners } from "../../../src/framework/basic-rest/static/banner";
+import { ROUTES } from "@utils/routes";
+import { promotionBannerTwo as banners } from "src/framework/basic-rest/static/banner";
 
 const breakpoints = {
 	"1025": {

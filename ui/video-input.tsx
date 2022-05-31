@@ -1,10 +1,10 @@
 import type { FC } from "react";
 import React, { ChangeEvent, useRef, useState } from "react";
-import { useUI } from "../../src/contexts/ui.context";
+import { useUI } from "@contexts/ui.context";
 import { useFormContext } from "react-hook-form";
 import { useTranslation } from "next-i18next";
 import { generateId, getOriginal, getPoster } from "../utils/id";
-import { VideoType } from "../../src/framework/basic-rest/booking-types";
+import { VideoType } from "src/framework/basic-rest/booking-types";
 
 interface ProductProps {
   name: string;

@@ -5,11 +5,11 @@ import {
   sendPostRequest,
   sendRequest,
 } from "./request";
-import { SITE_NAME } from "../../src/settings/site-settings";
+import { SITE_NAME } from "@settings/site-settings";
 import { getOriginal } from "../utils/id";
-import { EventType, IdolType, ProductInfo } from "../../src/framework/basic-rest/booking-types";
+import { EventType, IdolType, ProductInfo } from "src/framework/basic-rest/booking-types";
 import { getFirestore } from "firebase-admin/firestore";
-import { EVENTS, IDOLS } from "../../src/utils/constants";
+import { EVENTS, IDOLS } from "@utils/constants";
 import {SHOPIFY_DOMAIN} from "../utils/env";
 
 const GRAPHQL = "/admin/api/2021-07/graphql.json";

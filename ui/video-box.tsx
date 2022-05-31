@@ -8,7 +8,7 @@ import {
 import React, { FC, SyntheticEvent, useEffect, useState } from "react";
 import { useVideo, useFullscreen, useToggle } from "react-use";
 import cn from "classnames";
-import { useUI } from "../../src/contexts/ui.context";
+import { useUI } from "@contexts/ui.context";
 
 export interface VideoProps
   extends React.VideoHTMLAttributes<HTMLVideoElement> {

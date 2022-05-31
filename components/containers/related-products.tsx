@@ -1,7 +1,7 @@
 import SectionHeader from "../common/section-header";
-import ProductCard from "../../../src/components/product/product-card";
+import ProductCard from "@components/product/product-card";
 import ProductFeedLoader from "../../ui/loaders/product-feed-loader";
-import { useRelatedProductsQuery } from "../../../src/framework/basic-rest/product/get-related-product";
+import { useRelatedProductsQuery } from "src/framework/basic-rest/product/get-related-product";
 import Alert from "../../ui/alert";
 
 interface ProductsProps {

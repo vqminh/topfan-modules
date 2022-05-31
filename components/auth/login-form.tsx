@@ -1,6 +1,6 @@
 import Button from "../../ui/button";
 import Input from "../../ui/input";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import { useTranslation } from "next-i18next";
 import { useForm } from "react-hook-form";
 import LoginSocial from "./login-social";

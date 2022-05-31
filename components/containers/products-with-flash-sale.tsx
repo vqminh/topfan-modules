@@ -1,9 +1,9 @@
 import SellWithProgress from "../common/sale-with-progress";
 import SectionHeader from "../common/section-header";
-import ProductCard from "../../../src/components/product/product-card";
+import ProductCard from "@components/product/product-card";
 import { useWindowSize } from "../../utils/use-window-size";
-import { useFlashSaleProductsQuery } from "../../../src/framework/basic-rest/product/get-all-flash-sale-products";
-import { useTopSellerProductsQuery } from "../../../src/framework/basic-rest/product/get-all-top-seller-products";
+import { useFlashSaleProductsQuery } from "src/framework/basic-rest/product/get-all-flash-sale-products";
+import { useTopSellerProductsQuery } from "src/framework/basic-rest/product/get-all-top-seller-products";
 import ProductListFeedLoader from "../../ui/loaders/product-list-feed-loader";
 import Alert from "../../ui/alert";
 import React from "react";

@@ -1,6 +1,6 @@
 import Input from "../../ui/input";
 import TextArea from "../../ui/text-area";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import { useTranslation } from "next-i18next";
 import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
@@ -12,10 +12,10 @@ import {
 } from "../../ui/input-utils";
 import { Banner } from "../../ui/banner";
 import Form, { setFormValue } from "../common/form";
-import { SignUpIdolInputType } from "../../../src/framework/basic-rest/booking-types";
-import { signUpIdol } from "../../../src/framework/basic-rest/auth/use-signup-idol";
+import { SignUpIdolInputType } from "src/framework/basic-rest/booking-types";
+import { signUpIdol } from "src/framework/basic-rest/auth/use-signup-idol";
 import { auth } from "../../utils/firebase";
-import { IdolPicture } from "../../../src/components/checkout/idol-picture";
+import { IdolPicture } from "@components/checkout/idol-picture";
 import { User } from "@firebase/auth";
 import { useCookie } from "react-use";
 import CategoryBanner from "../containers/category-banner";

@@ -1,7 +1,7 @@
 import type { FC } from "react";
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 
 interface Props {
   className?: string;

@@ -1,4 +1,4 @@
-import ProductCard from "../../../src/components/product/product-card";
+import ProductCard from "@components/product/product-card";
 import Carousel from "../../ui/carousel/carousel";
 import { SwiperSlide } from "swiper/react";
 import ProductFlashSaleGridLoader from "../../ui/loaders/product-flash-sale-grid-loader";

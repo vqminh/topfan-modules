@@ -2,7 +2,7 @@ import Button from "../../ui/button";
 import Input from "../../ui/input";
 import Logo from "../../ui/logo";
 import { useForm } from "react-hook-form";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import { useTranslation } from "next-i18next";
 import { MODAL } from "../common/modal/managed-modal";
 

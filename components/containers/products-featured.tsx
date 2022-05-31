@@ -1,6 +1,6 @@
 import SectionHeader from "../common/section-header";
-import ProductOverlayCard from "../../../src/components/product/product-overlay-card";
-import { useFeaturedProductsQuery } from "../../../src/framework/basic-rest/product/get-all-featured-products";
+import ProductOverlayCard from "@components/product/product-overlay-card";
+import { useFeaturedProductsQuery } from "src/framework/basic-rest/product/get-all-featured-products";
 import Alert from "../../ui/alert";
 
 interface ProductsProps {

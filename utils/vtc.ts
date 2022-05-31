@@ -1,5 +1,5 @@
-import { VTC_RETURN_URL } from "../../src/utils/constants";
-import api from "../../src/framework/basic-rest/utils/api";
+import { VTC_RETURN_URL } from "@utils/constants";
+import api from "src/framework/basic-rest/utils/api";
 import {SITE_URL} from "./env";
 
 export async function vtcPay(

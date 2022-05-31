@@ -1,8 +1,8 @@
 import type { FC } from "react";
 import React, { ChangeEvent, useRef, useState } from "react";
-import { useUI } from "../../src/contexts/ui.context";
+import { useUI } from "@contexts/ui.context";
 import { useTranslation } from "next-i18next";
-import { PhotoType } from "../../src/framework/basic-rest/booking-types";
+import { PhotoType } from "src/framework/basic-rest/booking-types";
 import { generateId, getBucketURL } from "../utils/id";
 import {PLACE_HOLDER} from "../utils/env";
 

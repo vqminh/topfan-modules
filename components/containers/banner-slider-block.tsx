@@ -1,8 +1,8 @@
 import BannerCard from "../common/banner-card";
 import Carousel from "../../ui/carousel/carousel";
 import { SwiperSlide } from "swiper/react";
-import { promotionBanner } from "../../../src/framework/basic-rest/static/banner";
-import { ROUTES } from "../../../src/utils/routes";
+import { promotionBanner } from "src/framework/basic-rest/static/banner";
+import { ROUTES } from "@utils/routes";
 
 interface BannerProps {
 	className?: string;

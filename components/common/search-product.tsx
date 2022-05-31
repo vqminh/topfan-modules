@@ -1,8 +1,8 @@
 import Link from "../../ui/link";
 import Image from "next/image";
-import { ROUTES } from "../../../src/utils/routes";
+import { ROUTES } from "@utils/routes";
 import { assetLoader } from "../../utils/firebase";
-import { Product } from "../../../src/framework/basic-rest/types";
+import { Product } from "src/framework/basic-rest/types";
 import React from "react";
 
 type SearchProductProps = {

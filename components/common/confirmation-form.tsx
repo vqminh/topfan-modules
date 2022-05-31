@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "next-i18next";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import Input from "../../ui/input";
 import Button from "../../ui/button";
 import { useForm } from "react-hook-form";

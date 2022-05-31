@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useUI } from "../../../src/contexts/ui.context";
+import { useUI } from "src/contexts/ui.context";
 import Button from "../../ui/button";
 import { useTranslation } from "next-i18next";
 import Cropper from "cropperjs";

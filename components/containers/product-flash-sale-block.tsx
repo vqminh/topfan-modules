@@ -1,7 +1,7 @@
 import SectionHeader from "../common/section-header";
-import ProductCard from "../../../src/components/product/product-card";
+import ProductCard from "@components/product/product-card";
 import ProductCardGridLoader from "../../ui/loaders/product-card-grid-loader";
-import { useFlashSaleProductsQuery } from "../../../src/framework/basic-rest/product/get-all-flash-sale-products";
+import { useFlashSaleProductsQuery } from "src/framework/basic-rest/product/get-all-flash-sale-products";
 import Alert from "../../ui/alert";
 import dynamic from "next/dynamic";
 import React from "react";
